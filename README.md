@@ -18,7 +18,7 @@ Este é um código simples de Jogo da Velha (Tic-Tac-Toe) desenvolvido em C, per
 
 Isso criará um arquivo executável chamado jogo_da_velha.
 
-Execução:
+- Execução:
 Para rodar o jogo, digite o seguinte comando no terminal:
 ./jogo_da_velha
 
@@ -27,17 +27,17 @@ Como Jogar:
 2. Cada jogador alterna a vez, escolhendo a posição no tabuleiro numerada de 1 a 9.
 3. O jogo termina quando um dos jogadores vence ou quando ocorre um empate.
 
-Descrição do Código:
-- Funções:\n
--> desenhaTabuleiro(): Exibe o tabuleiro na tela.\n
--> verificarVitoria(): Verifica se algum jogador venceu, verificando linhas, colunas e diagonais.\n
--> verificarEmpate(): Verifica se o jogo acabou em empate, ou seja, quando todas as posições estão ocupadas.\n
--> jogar(): Controla o fluxo do jogo, alternando as jogadas entre os jogadores, verificando vitória ou empate após cada jogada.\n
+- Descrição do Código:
+- Funções:
+   - desenhaTabuleiro(): Exibe o tabuleiro na tela.
+   - verificarVitoria(): Verifica se algum jogador venceu, verificando linhas, colunas e diagonais.
+   - verificarEmpate(): Verifica se o jogo acabou em empate, ou seja, quando todas as posições estão ocupadas.
+   - jogar(): Controla o fluxo do jogo, alternando as jogadas entre os jogadores, verificando vitória ou empate após cada jogada.
 
-- Lógica do Jogo:\n
--> O jogo é alternado entre os jogadores, que escolhem um símbolo personalizado (pode ser qualquer caractere).\n
--> O jogador faz suas jogadas digitando um número de 1 a 9, representando as posições no tabuleiro.\n
--> Após cada jogada, o tabuleiro é reexibido, e o jogo verifica se algum jogador venceu ou se deu empate.\n
+- Lógica do Jogo:
+   - O jogo é alternado entre os jogadores, que escolhem um símbolo personalizado (pode ser qualquer caractere).
+   - O jogador faz suas jogadas digitando um número de 1 a 9, representando as posições no tabuleiro.
+   - Após cada jogada, o tabuleiro é reexibido, e o jogo verifica se algum jogador venceu ou se deu empate.
 
 
 Esse README inclui as instruções detalhadas de como compilar e executar o código, além de fornecer uma explicação sobre as funções e a lógica do jogo no código C.
